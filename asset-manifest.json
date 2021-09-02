@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crypto-tracker/static/css/main.f5afbdb8.chunk.css",
-    "main.js": "/crypto-tracker/static/js/main.3b25204b.chunk.js",
-    "main.js.map": "/crypto-tracker/static/js/main.3b25204b.chunk.js.map",
+    "main.js": "/crypto-tracker/static/js/main.ec58fff3.chunk.js",
+    "main.js.map": "/crypto-tracker/static/js/main.ec58fff3.chunk.js.map",
     "runtime-main.js": "/crypto-tracker/static/js/runtime-main.72ce8dc8.js",
     "runtime-main.js.map": "/crypto-tracker/static/js/runtime-main.72ce8dc8.js.map",
     "static/js/2.55585d07.chunk.js": "/crypto-tracker/static/js/2.55585d07.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.72ce8dc8.js",
     "static/js/2.55585d07.chunk.js",
     "static/css/main.f5afbdb8.chunk.css",
-    "static/js/main.3b25204b.chunk.js"
+    "static/js/main.ec58fff3.chunk.js"
   ]
 }
