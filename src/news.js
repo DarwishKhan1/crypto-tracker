@@ -6,15 +6,17 @@ const News = (props) => {
   const [news, setNews] = useState([]);
 
   useEffect(async () => {
+    const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     const response = await axios.get(
-      `https://newsapi.org/v2/everything?q=bitcoin&language=en&apiKey=b8874ae3436a46e184ed003dc91ab52d`
+      `${proxyUrl}https://newsapi.org/v2/everything?q=bitcoin&language=en&apiKey=b8874ae3436a46e184ed003dc91ab52d`
     );
     console.log(response.data.articles);
     setNews(response.data.articles);
   }, []);
   const currencyHandler = async (k) => {
+    const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     const response = await axios.get(
-      `https://newsapi.org/v2/everything?q=${k}&language=en&apiKey=b8874ae3436a46e184ed003dc91ab52d`
+      `${proxyUrl}https://newsapi.org/v2/everything?q=${k}&language=en&apiKey=b8874ae3436a46e184ed003dc91ab52d`
     );
     setNews(response.data.articles);
   };
